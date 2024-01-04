@@ -35,9 +35,9 @@ stage ('dockerimageBuild')
 {
     steps
     {
-       sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo  docker login -uankit1111 -pmiet@1234 "
-        sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo docker tag account-service ankit1111/account-service "
-        sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo docker push ankit1111/account-service  "
+       sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo  docker login anusha167 neversay100# "
+        sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo docker tag account-service anusha167/account-service "
+        sh "cd /home/ubuntu/workspace/Java-job-deplyment/account-service ; sudo docker push anusha167/account-service  "
         
         
     }
